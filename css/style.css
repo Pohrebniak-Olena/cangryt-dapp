@@ -24,7 +24,7 @@ a {
   padding-bottom: 52.39px;
   max-height: 576px;
   font-family: 'Inter';
-  background: url(./images/header__background.png);
+  background: url(/images/header__background.png)
 }
 
 .header__inner {
@@ -145,7 +145,7 @@ a {
   width: 100%;
   margin-top: 71px;
   min-height: 381px;
-  background: url(./images/header-big-logo.png);
+  background: url(/images/header-big-logo.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
