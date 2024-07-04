@@ -7,8 +7,8 @@ main {
 }
 
 .table {
-  width: 813px;
-  height: 506px;
+  width: 749px;
+  height: 426px;
   padding: 40px 32px 40px 32px;
   border-radius: 16px;
   border: 1px solid rgba(230, 230, 230, 1);
@@ -74,3 +74,31 @@ main {
   padding: 0px 16px;
   border-bottom: 1px solid #e6e6e6;
 }
+
+.table__indexes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.table__indexes > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #333333;
+}
+
+div .table__indexes-menu {
+  padding: 24px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  color: #00000080;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.table__indexes > div > span:nth-child(2) {}
