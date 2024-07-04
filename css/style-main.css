@@ -92,7 +92,7 @@ main {
   color: #333333;
 }
 
-div .table__indexes-menu {
+.table__indexes-menu {
   padding: 24px 16px;
   font-size: 14px;
   font-weight: 400;
@@ -101,4 +101,17 @@ div .table__indexes-menu {
   border-bottom: 1px solid #e6e6e6;
 }
 
-.table__indexes > div > span:nth-child(2) {}
+.table__indexes > div > * {
+  text-align: left;
+  flex: 1;
+}
+
+.activeStatus {
+  background-color: red;
+  color: darkred;
+}
+
+.inactiveStatus {
+  background-color: green;
+  color: darkgreen;
+}
