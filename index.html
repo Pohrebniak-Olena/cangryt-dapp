@@ -10,8 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-header.css" />
     <link rel="stylesheet" href="./css/style-main.css" />
+    <link rel="stylesheet" href="./css/style-footer.css" />
   </head>
   <body>
     <div class="main">
@@ -65,11 +66,11 @@
         <div class="table">
           <div class="table__main">
             <div class="table__main-bin">
-              <span class="table__main-item1">Всього застекано</span>
-              <span class="table__main-item2">
+              <span class="table__item">Всього застекано</span>
+              <span class="table__coin">
                 <img src="./images/main__bin.svg" alt="" />25 BIN</span
               >
-              <span class="table__main-item3"
+              <span class="table__revenue"
                 ><img src="./images/main__warning.svg" alt="" />Максимальний
                 дохід по стекінгу 200%</span
               >
@@ -93,20 +94,26 @@
               <span>17 днів</span>
               <span>0.5%</span>
               <span>31.7%</span><span>10 BIN</span>
-              <span class="activeStatus">Активний</span>
+              <div><span class="activeStatus">Активний</span></div>
             </div>
             <div>
               <span>17 днів</span><span>0.5%</span><span>31.7%</span
-              ><span>10 BIN</span><span class="inactiveStatus">Неактивний</span>
+              ><span>10 BIN</span>
+              <div><span class="inactiveStatus">Неактивний</span></div>
             </div>
             <div>
               <span>17 днів</span><span>0.5%</span><span>31.7%</span
-              ><span>10 BIN</span><span class="activeStatus">Активний</span>
+              ><span>10 BIN</span>
+              <div><span class="activeStatus">Активний</span></div>
             </div>
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer class="footer">
+        <div class="footer__text">
+          Copyright © 2022 stagrant. All rights reserved.
+        </div>
+      </footer>
     </div>
   </body>
 </html>
