@@ -56,12 +56,6 @@ main {
   opacity: 50%;
 }
 
-.table__main-market {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .table__main-market > div {
   display: flex;
   justify-content: space-between;
@@ -73,8 +67,6 @@ main {
 }
 
 .table__indexes {
-  position: relative;
-  display: flex;
   flex-direction: column;
 }
 
@@ -101,7 +93,7 @@ div.table__indexes-menu {
   align-items: center;
 }
 
-.activeStatus {
+.table__activeStatus {
   background-color: #87FFDF;
   color: #24A483;
   padding: 10px;
@@ -109,7 +101,7 @@ div.table__indexes-menu {
   font-weight: 700;
 }
 
-.inactiveStatus {
+.table__inactiveStatus {
   background-color: #FFDDDB;
   color: #FD2517;
   border-radius: 8px;
