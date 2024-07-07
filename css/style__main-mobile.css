@@ -9,8 +9,8 @@
 
   .table {
     width: 328px;
-    height: 802px;
-    padding: 24px 0px;
+    height: 782px;
+    padding: 24px 0px 0px 0px;
   }
 
   .table__main {
@@ -22,7 +22,16 @@
     padding-left: 12px;
   }
 
-  .table__coin {
+  .table__coin-bin {
+    display: none;
+  }
+
+  .table__coin-bnb {
+    display: flex;
+    gap: 8px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
     padding-bottom: 17px;
   }
 
@@ -39,4 +48,22 @@
   .table__indexes-mobile {
     display: block;
   }
+
+  .table__indexes-mobile > div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 24px 16px 30px 16px;
+    gap: 16px;
+  }
+
+  .table__indexes-mobile > div > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .table__indexes-mobile > div > div > div {
+    font-size: 14px;
+    line-height: 19.12px;
+    }
 }
