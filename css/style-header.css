@@ -66,7 +66,7 @@ a {
 .header__main {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 94px;
 }
 
 .header__content {
@@ -92,16 +92,17 @@ a {
 .header__content-text {
   padding-top: 16px;
   padding-bottom: 36px;
-  text-align: left;
   color: #9d9d9d;
 }
-.header_font-style {
+
+.header__font-style {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 16px;
   text-align: center;
 }
+
 .header__content-button {
   max-width: 300px;
   display: flex;
@@ -111,15 +112,15 @@ a {
   color: #3b3636;
   background-color: #ffffff;
   padding: 17px 32px;
-
   box-shadow: 3px 3px 5px rgb(184, 184, 184);
 }
 
-.header__picture {
-  width: 100%;
-  margin-top: 71px;
-  min-height: 381px;
-  background: url(/images/header-big-logo.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+.header__picture > img {
+  height: 380.61px;
+  width: 380.61px;
+  padding-top: 71px;
+}
+
+.header__button-mobile {
+  display: none;
 }

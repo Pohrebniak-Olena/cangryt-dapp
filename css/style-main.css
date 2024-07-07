@@ -108,3 +108,7 @@ div.table__indexes-menu {
   padding: 10px;
   font-weight: 700;
 }
+
+.table__indexes-mobile {
+  display: none;
+}

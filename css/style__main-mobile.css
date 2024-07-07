@@ -1,0 +1,42 @@
+@media (width <= 768px) {
+  main {
+    padding-top: 153px;
+  }
+
+  .table__indexes {
+    display: none;
+  }
+
+  .table {
+    width: 328px;
+    height: 802px;
+    padding: 24px 0px;
+  }
+
+  .table__main {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .table__main-bin {
+    padding-left: 12px;
+  }
+
+  .table__coin {
+    padding-bottom: 17px;
+  }
+
+  .table__main-market {
+    padding: 24px 16px;
+  }
+
+  .table__main-market > div {
+    width: 295px;
+    height: 48px;
+    padding: 0;
+  }
+
+  .table__indexes-mobile {
+    display: block;
+  }
+}
