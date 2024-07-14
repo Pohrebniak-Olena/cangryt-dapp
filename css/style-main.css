@@ -60,7 +60,7 @@ main {
   opacity: 50%;
 }
 
-.table__main-market > div {
+.table__main-market>div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +74,7 @@ main {
   flex-direction: column;
 }
 
-.table__indexes > div {
+.table__indexes>div {
   display: flex;
   justify-content: space-between;
   padding: 10px 16px;
@@ -90,7 +90,7 @@ div.table__indexes-menu {
   border-bottom: 1px solid #e6e6e6;
 }
 
-.table__indexes > div > * {
+.table__indexes>div>* {
   display: flex;
   text-align: left;
   flex: 1;
